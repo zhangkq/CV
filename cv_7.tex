@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Kaiqiang} % Your first name
+\familyname{ZHANG} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{D.O.B. 1991.04.13   \textbf{MR.}}
+\address{18 Hampton Road}{Bristol, the UK BS6 6HL}
+\mobile{(044)7544012329 ; (086)18545123013}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{zhangkq0413@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment}
+
+\cventry{2014-Present}{Research Assistant}{The University of Bristol}{}{}{At invitation of Dr. Guido Herrmann, I joined as a research assistant in Automatic Control and Testing Lab from Jan. 2014 for 5 months to work on precision control of Bristol's high precision Atomic Force Microscopes (AFM). I am also studying the topic of novel non-raster scanning approach in AFM for a journal paper}  % Arguments not required can be left empty
+\section{Education}
+
+\cventry{2013--2014}{Master of Science}{The University of Bristol}{}{\textit{GPA 73\%}}{\textbf{MSc with Distinction } Specialty: MSc of Advanced Engineering Robotics}  % Arguments not required can be left empty
+
+\cventry{2006--2012}{Bachelor of Engineering}{Xi'an Jiaotong University (One of top 10 universities in China; "C9 League","Project 211" and "Project 985" University)}{}{\textit{GPA 76\%,the top in class is 81\%}
+\textbf{One of the top 10 in class majored in Automation}}{\textbf{A student of the Special Class for the Gifted Young of Xi'an Jiaotong University} (The program of the Special Class for the Gifted Young of China in Xi'an Jiaotong University aims to cultivate those with talents for learning science and technology in the middle school to become part of the technical elite of China.)}
+
+\section{Projects \& Publications}
+
+\cvitem{\textbf{Project}}{\emph{\textbf{High Precision Control Approaches for Bristol's Probe Microscopes in the University of Bristol}}}
+\cvitem{Description}{Atomic Force Microscopy (AFM) is widely used to study biological specimen or material physics in nanoscale. For rapid specimen topography imaging, I developed a novel AFM non-raster scanning algorithm to speed up the scanning process using contour prediction algorithms with adaptive filters. Simulation results were compared with an Iterative Learning Control approach.}
+\cvitem{Results}{The report of my MSc final project was marked 72\%; \textbf{A paper was accepted by the 19th World Congress of the International Federation of Automatic Control for publication.}; I am helping with precision control of AFM employing FPGA boards; \textbf{A new jounal paper is conducting about novel non-raster scanning approach in AFM.}}
+
+
+\cvitem{\textbf{Project}}{\emph{\textbf{Cartesian Genetic Programming Based Optimal Fuzzy-controller for Unmanned Vehicles}}}
+\cvitem{Description}{As a group project in my MSc study, the goal is to develop a program, which can automatic design optimal fuzzy-controllers for unmanned vehicles using genetic programming method. In this project, I designed the approach to tune the optimal controller and coded the genetic programming approach in Java.}
+\cvitem{Results}{The project was finished in Apr. 2014. The outcome was used to help controller design in Bristol Robotics Laboratory.}
+
+
+\cvitem{Project}{\emph{\textbf{Network Packet Capture and Analysis Software, Based on Network Detection and Machine Learning (National Undergraduates Innovation \& Experimentation Project, No.101069838)}}}
+\cvitem{Description}{This is a program which can capture network packets, classify packets, analyse data usage and display results with a graphic interface. In this project, I programmed the code using network detection techniques, multiple process programming, SQL data analysis and machine learning algorithms}
+\cvitem{Results}{The project was awarded the grade \textbf{''Excellent Project''} in the final assessment (only 13 from 64 national projects within Xi'an Jiaotong University) in Jun. 2012.}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Internship}
+
+\subsection{Xi'an Shaangu Power Co. Ltd and Xi'an Iron \& 
+Steel Factory of Longgang Group, China}
+%------------------------------------------------
+
+\cventry{2011.07}{Summer Intern}{Performance B+ in this internship was included as the industrial field training module in my undergraduate degree}{}{}{I worked in Lintong Headquarter of Xi.an Shaangu Power Co. Ltd in the morning and worked on a continuous rolling production line of Xi.an Iron and Steel Factory of Longgang Group in the afternoon: (a) Learned control design and electrical design; (b) Studied turbine machine design, and worked on Siemens s7-200 PLC for turbine production; (c) Learned the full continuous rolling production line security regulation, Electrical automation equipment, production line processing techniques
+}
+
+%------------------------------------------------
+
+\subsection{Shenhua Guohua Xilaifen Power Plant, China}
+
+\cventry{2010.08}{Summer Intern}{}{}{}{Thermal control operation and maintenance of equipment department.As a trainee, I learned firsthand knowledge of the thermal control operation and maintenance: (a) Learned the DCS control system (Shanghai Foxboro Co., Ltd) and live design; (b) Visited the steam power turbine; (c) Worked on practical production process design issues, checking the condensation control procedure of turbines, observing instruments and collecting data
+}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2013.11}{Awarded MSc with Distinction at the University of Bristol}
+\cvitem{2012.07}{Excellent Award in National Undergraduates Innovation Projects (No. 101069838)
+}
+\cvitem{2011.10}{''Excellent Coach'' in the 4th Freshmen's Debating Contest of ChungYing College in Xi'an Jiaotong University}
+\cvitem{2011.05}{Excellent Award in Case Analysis Competition of Xi'an Quater-University League Case Analysis Competition}
+\cvitem{2009.07}{the chairman of Electronic and Information Engineering School Technology Association in Nanyang College}
+\cvitem{2009.04}{the champion of ''Fenghua Cup'' Debate competition on behalf of Pengkang Academy in Xi'an Jiaotong University}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills \& Hobbies}
+
+\cvitem{Programming}{\textsc{java},  \textsc{C}, \textsc{C++}, \textsc{Python}, \textsc{Matlab}, \textsc{Prolog}, \textsc{Progo} and \textsc{Labview} for FPGA programming}
+\cvitem{Languages}{English(CET 6), Germain (basic)}
+\cvitem{Hobbies}{Reading, Research, Programming, Soccer, Cycling and Debating}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+%
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+%
+%\cvitemwithcomment{English}{Mothertongue}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+%
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-3] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%%----------------------------------------------------------------------------------------
+
+\end{document}
